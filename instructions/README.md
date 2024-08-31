@@ -104,6 +104,10 @@ You need to submit the following files:
 * [Report.md](../Report.md)
 * [README.md](../README.md) (the one with your name in it)
 
+
+### Rubric
+
+
 1. Learning (AG)
    * check_lower() works on a variety of inputs.
 2. Approaching  (AG)

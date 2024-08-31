@@ -105,22 +105,19 @@ You need to submit the following files:
 * [README.md](../README.md) (the one with your name in it)
 
 1. Learning (AG)
-   * Star Rating properly takes in input, and works on star between 1 and 5
+   * check_lower() works on a variety of inputs.
 2. Approaching  (AG)
-   * Star rating works on partial star entries, and stars < 1 and > 5
-   * Star rating uses proper spacing between movie and stars 
-   * Location Guesser provides correct locations based on simple conditions
-3. Meets  (AG)
-   * Location Guesser provides correct locations when temps are flipped
-   * Location Guesser provides correct locations based on harder conditions including edge conditions
-   * Code follows recommended style suggestions
+   * get_cities() works on variety of inputs.
+   * Code follows recommended style suggestions.
+3. Meets  (MG)
+   * Flowchart is correct for both get_cities
+   * Readme.md is filled out
+   * Coding practice is provided
 4. Exceeds  (MG)
-   * Code uses appropriate comments and docstring is updated
-   * Code isn't overly complex / meets suggested guidelines for coding
-   * README.md questions answered correctly
-   * Flowchart is correct
-     * matches the code provided 
-     * both follow assignment specifications. 
+   * Report.md question 1, 2, 3 are correct
+   * Report.md flowchart is correct
+   * Report.md deeper thinking is answered
+     * Does not have to be correct, but does have to be provided and thoughtful.  
 
 
 AG - Auto-graded  

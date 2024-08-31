@@ -31,7 +31,7 @@ class TestTempGuess(unittest.TestCase):
         self.assertFalse(temp_guess.check_lower(33,10))
 
 
-    def test_check_lower_third(self) -> None:
+    def test_check_lower_equal(self) -> None:
         """Tests check_lower(33, 33) returns True"""
         self.assertTrue(temp_guess.check_lower(33, 33))
 

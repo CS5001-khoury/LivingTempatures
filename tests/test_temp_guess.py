@@ -22,16 +22,16 @@ class TestTempGuess(unittest.TestCase):
         self.assertEqual(expected, actual, "Does not contain the expected cities, or has extra (note order does not matter, case does matter)")
 
 
-    def test_check_lower(self) -> None:
+    def test_check_lower_first(self) -> None:
         """Tests check_lower(10, 33) returns True"""
         self.assertTrue(temp_guess.check_lower(10,33))
 
-    def test_check_lower(self) -> None:
+    def test_check_lower_second(self) -> None:
         """Tests check_lower(33, 10) returns False"""
         self.assertFalse(temp_guess.check_lower(33,10))
 
 
-    def test_check_lower(self) -> None:
+    def test_check_lower_third(self) -> None:
         """Tests check_lower(33, 33) returns True"""
         self.assertTrue(temp_guess.check_lower(33, 33))
 

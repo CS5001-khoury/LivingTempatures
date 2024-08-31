@@ -3,50 +3,18 @@
 For this module, we will explore both variable types, logic and building flowcharts. You may want to read through the entire assignment (including the Additional Resources) 
 before getting started on this one, as there are some tips and tricks that may help you out.
 
-## Star Rating Version 2
-
-For this task, you will explore variable types and client `input()`.  For this task, you will use [star_rating_v2.py](../star_rating_v2.py)
-
-### Part 1: Star Rating  Flowchart
-
-👉🏽 **Task**:  Build a flowchart that maps out the following program. You will submit the flowchart with your code, and you are free to talk about this flowchart. 
-However, if you do talk with others on it, make sure their names are included on the flowchart and contribution (e.g. worked in a group).
-You should submit the chart as an image either via taking a picture or using a program mentioned in Additional Resources below. 
-
-Your client has asked you to write the following program.
-
-1. Takes in the client's input for both the name of a movie and the number of stars to give it.
-2. It will then print to the screen Movie and Stars (*) equal to the number given. 
-   * There will be five spaces between name and stars.
-3. If someone enters less than 1 star, 1 star is used, if they enter more than 5, five stars are used. 
-4. You do not have to worry about the case if the person doesn't enter a number.
-5. If they enter a partial number, round down.  (1.5 becomes 1 star)
-
-They have provided the following samples.
-
-```text
-Enter a movie: Thor
-Rate between 1 and 5: 3
-Thor     ***
-```
-
-```text
-Enter a movie: Princess Bride
-Rate between 1 and 5: 5
-Princess Bride     *****
-```
-
-### Part 2: Write the Program
-
-👉🏽 **Task**: Using your flowchart as a guide, write the program using the template [star_rating_v2.py](../star_rating_v2.py).
-
-
 
 ## Location Guessing Application
 
-For this task, you will explore variable types, client `input()`, and boolean logic. For this, you will use [temp_guess.py](../temp_guess.py)
+For this task, you will explore variable types, client `input()`, and boolean logic. For this, you will use [temp_guess.py](../src/temp_guess.py). The application is broken up into four functions, following the divide-conquer-glue way of approaching problems. 
 
-You will write an application that suggests a location to live based on conditions.
+* **main()** - this function is provided for you. You should read through and understand it, as it is the 'glue' of the application combining the other results of the other functions.
+* **get_number(prompt: str) -> int:** prompts the client using prompt and returns a whole number.
+* **check_lower(first: int, second: int) -> bool:** returns True if first is lower or equal to second.
+* **get_cities(low: int, high: int) -> str:** this is the heart of the application. Based on low and high temperatures being passed into the function, it builds a string of possible cities to live in with each city being separated by the newline (\n) character. 
+
+### Final Application
+The final application suggests a location to live based on conditions.
 
 Given the following chart
 
@@ -91,22 +59,50 @@ Enter a second temperature: 20
 Unknown
 ```
 
+### 👉🏽 Your Tasks
+* Build a flowchart for get_cities. Really think about your conditions. You need to provide the flowchart as an image (see below for some resources).  
+* Complete the get_number, check_lower, and get_cities - you will find get_cities is the hardest by far, so make sure you think about your flowchart and the various conditions. It is very easy to get it 'backwards' or make it more complicated than it needs to be. 
 
-A flowchart is not required for submission, but it is **highly** recommended you write one! It is also recommended you test as you write to make sure you have the correct signs on your condition checks. 
+> [!TIP]
+> When working on your functions, write the function and use 'run in interactive window' in VS Code. 
+> You can then test the function with various parameters once it is loaded. However, you need to keep
+> highlighting the function and rerunning as you make changes. It is also possible to make the 
+> function only work for a couple cities, then keep adding more cities until it works in all cases. 
 
+## Report.md and README.md
 
-## README.md
+👉🏽 **Task**: Answer the questions in the [Report.md](../Report.md) and [README.md](../README.md) files. 
 
-👉🏽 **Task**: Answer the questions in the [README.md](../README.md) file. 
-
-Make sure to answer the questions in the [README.md](../README.md) file. One question will require you to draw a flowchart. You can upload the .png or other file when you submit your homework.
+One question will require you to draw a flowchart. You can upload the .png or other file when you submit your homework.
 
 As always you are free to ask about the questions in MS Teams, including clarifications on the code. 
 
 
+## Coding Practice
+Looking at the coding [practice problems](https://github.com/CS5001-khoury/Resources/blob/main/PracticeProblems.md) in the class resources, you should ideally do a few
+others on your own to get more practice coding.  However, you need to submit at least ONE (1) 
+completed practice as its own python file (which means even if the coding practice had an online
+form to fill out like codingbat, you need to copy your solution to a python file). 
+
+> [!TIP]
+> It is often good to have a moduleX_coding_practice.py file that you have all your 
+> solutions you work on for the single module (example: [module02_coding_practice.py](../src/module02_coding_practice.py)). Include a link to 
+> the resource as a comment above each solution, and you can then go back and 
+> review your code in the future. Note: you do not HAVE to follow this format, but it is
+> highly recommended. It is HIGHLY recommended you do one coding practice a night throughout
+> the week (from any module).
 
 
 ## 📝 Grading Rubric
+
+You need to submit the following files:
+
+* [temp_guess.py](../src/temp_guess.py)
+* Your flowchart for get_cities
+* Your flowchart for the Readme.md question
+* Your Coding Practice file
+* [Report.md](../Report.md)
+* [README.md](../README.md) (the one with your name in it)
 
 1. Learning (AG)
    * Star Rating properly takes in input, and works on star between 1 and 5
@@ -129,6 +125,11 @@ As always you are free to ask about the questions in MS Teams, including clarifi
 
 AG - Auto-graded  
 MG - Manually graded
+
+> [!IMPORTANT]
+> You will see that there are only 2 autograded points, and 2 manually graded points. As a reminder,
+> the manual graded won't happen until after you pass the autograder. A 2(ag) and 2 (mg) split
+> will be more common for assignments as we move forward. 
 
 ### Submission Reminder 🚨
 For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for your to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.

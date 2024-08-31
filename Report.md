@@ -54,8 +54,9 @@ For all these questions, it is recommended you open up IDLE or the python interp
 3. Now thinking about edge cases, temp_guess.py, what would be the edge cases for the application? (btw, these are the same cases you should test your code with before submitting your code)
 
 
-> Test Functions?   
-> As we explore functions in Module 03, we will learn often with every function you write, you write a second (or more) function to test it. In industry, test-driven-development actually has teams write tests *first* and then they write their code. As you progress, make sure to think about how you can test your code in addition to writing your code. The process may feel slow now, but it will save you time in the long run. 
+> [!NOTE]
+> **Test Functions?**   
+> In industry, test-driven-development (TDD) has teams write tests *first* and then they write their code. You will explore this more later in the semester and then follow this process strictly in 5004. As you progress, make sure to think about how you can test your code in addition to writing your code. The process may feel slow now, but it will save you time in the long run. 
 
 
 ## Deeper Thinking

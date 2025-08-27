@@ -92,6 +92,25 @@ form to fill out like codingbat, you need to copy your solution to a python file
 > highly recommended. It is HIGHLY recommended you do one coding practice a night throughout
 > the week (from any module).
 
+## 🤖 Use of LLMs
+You should **not** use LLMs for writing your code. This is about learning the process, and without learning the process you may find it actually more difficult to generate code with LLMs. This is because the prompts for LLMs need to be exact, or they will make faulty assumptions about the code you are trying to generate (often generating incorrect test cases!). 
+
+If you want to use them for studying, that is fine - but you should be careful with your prompts. Here is an example prompt that can help you if you are stuck:
+
+> I am learning conditional statements in Python, and it is only my second week in the course. I would like some guidance on how to code them with some examples, and I would like us to go into a quizzing mode after.
+> 
+> Please start by giving me a brief overview of conditional statements with 2-3 simple examples. Then transition into quiz mode.
+> 
+> In quiz mode:
+> - Ask me ONE question at a time
+> - Wait for my response before moving on
+> - After I respond, critique my answer constructively - point out what I got right, what needs improvement, and explain any corrections
+> - Then ask if I want another question
+> - Mix different types of questions as we progress: logic questions, format/syntax questions, code evaluation questions, and code writing questions
+> - Adjust the difficulty based on how I'm doing
+> - If I get something wrong, give me a similar but slightly easier question to reinforce the concept before moving on
+>
+> Start when you're ready!
 
 ## 📝 Grading Rubric
 

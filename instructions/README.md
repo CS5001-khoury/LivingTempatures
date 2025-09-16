@@ -69,6 +69,9 @@ Unknown
 > highlighting the function and rerunning as you make changes. It is also possible to make the 
 > function only work for a couple cities, then keep adding more cities until it works in all cases. 
 
+> [!CAUTION]
+> You cannot run the `temp_guess.py` program without first completing the functions. This however makes it difficult to test as you develop. Instead, you should run `test_temp_guess.py` or use the interactive window to test each function **as** you develop. Don't write the whole thing then run it, you will find it more difficult to complete. 
+
 ## Report.md and README.md
 
 👉🏽 **Task**: Answer the questions in the [Report.md](../Report.md) and [README.md](../README.md) files. 

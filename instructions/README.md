@@ -121,7 +121,7 @@ You need to submit the following files:
 
 * [temp_guess.py](../src/temp_guess.py)
 * Your flowchart for get_cities
-* Your flowchart for the Readme.md question
+* Your flowchart for the Report.md question
 * Your Coding Practice file
 * [Report.md](../Report.md)
 * [README.md](../README.md) (the one with your name in it)
